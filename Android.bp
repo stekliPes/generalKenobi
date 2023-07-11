@@ -1,5 +1,7 @@
-cc_binary {
+cc_prebuilt_binary {
   name: "generalKenobi",
   srcs: ["main.cpp"],
   rtti: true
+  device_supported: true,
+  host_supported: true,
 }
