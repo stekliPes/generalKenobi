@@ -1,4 +1,4 @@
-cc_prebuilt_binary {
+cc_binary {
   name: "generalKenobi",
   srcs: ["main.cpp"],
   rtti: true
